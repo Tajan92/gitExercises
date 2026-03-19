@@ -13,6 +13,10 @@ import java.util.logging.Logger;
 
 public class Main {
     private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
+    // whattup fuckface
+    // whattup fuckface
+    // whattup fuckface
+
 
     private static final String USER = "postgres";
     private static final String PASSWORD = "postgres";
@@ -44,4 +48,5 @@ public class Main {
         app.post("/edittask", ctx -> TaskController.edit(ctx, connectionPool));
         app.post("/updatetask", ctx -> TaskController.update(ctx, connectionPool));
     }
+
 }
